@@ -1,0 +1,341 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/* for the header of the website */
+.navigation{
+    background-color: #f8fbfd;
+    padding-top: 5px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#nav-section .nav-link {
+    font-size: 30px;
+    color: black;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    padding-left: 47px;
+}
+
+/* for the home body */
+.hero{
+    background-color: #e6e5e3;
+    height: 100vh;
+    text-align: center;
+}
+
+.intro{
+    display: inline-block;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.intro-tag{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.intro-description{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.btn{
+    background-color: #6257e3;
+    font-size: 25px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: auto;
+    min-width: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4e44b3;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.logo {
+    background-color: white;
+    margin: 0 auto; /* Center the logo container if desired */
+    padding: 0 15px 20px 15px;
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    box-shadow: 5px 4px 5px rgb(226, 223, 223);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and transform */
+}
+
+.social-logo {
+    width: 35px;
+    height: 35px;
+    display: block; /* Ensure each image starts on a new line */
+    margin: 10px auto; /* Add vertical margin for spacing and center horizontally */
+    margin-top: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    background-color: transparent;
+}
+
+.social-logo:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
+    transform: translateY(-5px) scale(1.2); /* Move up and increase size */
+}
+
+/* this is the about section of the website */
+.about {
+    background-color: #f8f6f3;
+    padding-top: 5%;
+    justify-content: center;
+    height: 130vh;
+}
+
+.main-about-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-div{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.about-tag{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+
+
+.about-info{
+    font-size: 25px;
+    padding-top: 1%;
+}
+
+.line{
+    border-top: 6px solid #6257e3;
+    width: 40px;
+    border-radius: 25px;
+    margin-top: 1%;
+}
+
+.skills-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.know-more{
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 5%; /* Adjusted margin to ensure spacing */
+}
+
+.know-me-tag{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    
+}
+
+.know-info{
+    font-size: 20px;
+    color: grey;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #545454;
+}
+
+.skills {
+    flex: 1;
+    margin-right: 10%;
+    margin-left: 5%; /* Adjusted margin to ensure spacing */
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #dddada;
+    color: grey;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.tag:hover {
+    background-color: #dddada;
+    transform: translateY(-3px);
+}
+
+
+/* this is for the contact section */
+
+.contact{
+    height: 150vh;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1eeee;
+}
+
+.contact-form{
+    background-color: white;
+    margin-top: 10%;
+    padding: 1% 5% 1% 2%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: left;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.label{
+    padding-top: 3%;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.form-control{
+    background-color: #f1eeee;
+    font-size: 20px;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+input:focus{
+    border: none;
+    background-color: #f1eeee;
+}
+  
+/*  this is for the footer section */
+
+.footer-section{
+    background-color: rgb(36, 33, 33);
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+}
+  
+  .footer {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer-info {
+    color: white;
+    margin-left: 10%;
+    box-sizing: border-box; /* Include padding in the width and height calculations */
+    margin-top: 5%;
+    flex: 0 1 auto; /* Allow these elements to grow and shrink, but not take up the entire height */
+    display: flex; /* If you need inner content to be flex containers */
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer-name {
+    font-size: px;
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+  }
+  
+  .footer-desc {
+    margin: 0; /* Remove default margin */
+    margin-top: 10px; /* Optional: Add some space between the name and description */
+    font-size: 18px;
+  }
+
+.footer-image{
+    margin-top: 5%;
+    margin-right: 10%;
+    flex: 0 1 auto; /* Allow these elements to grow and shrink, but not take up the entire height */
+    display: flex; /* If you need inner content to be flex containers */
+    flex-direction: column;
+    text-align: left;
+
+}
+  
+
+.social-heading{
+
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+}
+
+.img{
+    margin-top: 10px;
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+    color: white;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    background-color: transparent;
+}
+
+.social:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
+    transform: translateY(-5px) scale(1.2); /* Move up and increase size */
+}
+
+
+.footer-line{
+    margin-top: 10px;
+    border-top: 2px solid grey;
+    width: 80%;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
